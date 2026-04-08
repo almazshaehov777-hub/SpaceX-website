@@ -1,0 +1,44 @@
+body{
+    background: black;
+    margin: 0;
+}
+header{
+    max-width: 1230px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.item-link{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.item-link2{
+    color: gray;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.planetImage{
+    width: 1437px;
+    height: 1006px;
+}
+.text{
+    color: white;
+    font-size: 16px;
+}
+.main1{
+    display: block;
+    text-align: center;
+}
+#textH1{
+    font-size: 55px;
+}
