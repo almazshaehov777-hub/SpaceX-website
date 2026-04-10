@@ -1,0 +1,28 @@
+.container{
+    opacity: 0;
+    width: 500px;
+    height: 100px;
+    background: #0f0f0f;
+    visibility: hidden;
+    border-radius: 25px;
+    transition: 0.5s ease;
+}
+.container.active{
+    opacity: 1;
+    visibility: visible;
+    height: 500px;
+}
+.itemList{
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+#body{
+    background: white;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
