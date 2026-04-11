@@ -182,4 +182,16 @@ header{
 }
 .textInCard{
     margin-left: 5px;
+    margin-right: 5px;
+    font-family: FreeMono, monospace;
+}
+.information{
+    display: flex;
+    color: white;
+    margin-left: 70px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.numbers{
+    margin-left: 250px;
 }
