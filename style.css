@@ -195,6 +195,12 @@ header{
 .numbers{
     margin-left: 250px;
 }
+.rocketImage{
+    margin-right: 50px
+}
+.nameSection{
+    margin-left: 70px; 
+}
 
 
 
@@ -249,6 +255,7 @@ button{
     border-radius: 10px;
     margin-top: 10px;
     float: right;
+    background: #606060;
 }
 .button-section{
     z-index: 101;
@@ -259,10 +266,71 @@ button{
     justify-content: flex-end;
     margin-bottom: 50px;
 }
+.numbers{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.meter{
+    font-size: 18px;
+}
+.rocketImage{
+    width: 35px;
+    margin-right: 5px;
+    margin-top: 180px;
+}
+.information{
+    margin-left: 10px;
+}
+.nameSection{
+    margin-left: 10px; 
+}
+.rocketCardInfo{
+    display: grid;
+    justify-content: center;
+}
+.card{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Features{
+    text-align: center;
+}
+.mainRocketInfo{
+    margin-left: 65px;
+}
+.card{
+    height: 350px;
+}
+.textInCard{
+    font-size: 28px;
+}
 }
 
 
 
+
+
+
+
+@media(max-width: 414px){
+.numbers{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.meter{
+    font-size: 16px;
+}
+.mainRocketInfo{
+    margin-left: 65px;
+}
+.textInCard{
+    font-size: 26px;
+}
+.card{
+    height: 350px;
+}
+}
 
 
 
@@ -281,5 +349,14 @@ button{
 }
 .container{
     display: none;
+}
+#card2{
+    margin-right: 30px;
+}
+#card1{
+    margin-left: 30px;
+}
+#lastCard{
+    height: 450px;
 }
 }
