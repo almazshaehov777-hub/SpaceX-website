@@ -305,6 +305,25 @@ button{
 .textInCard{
     font-size: 28px;
 }
+
+
+
+
+/*falcon-heavy*/
+#falcon-heavy{
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+/*dragon*/
+#dragon{
+    width: 60px;
+    margin-right: 10px;
+    margin-top: 185px;
+}
 }
 
 
@@ -358,5 +377,18 @@ button{
 }
 #lastCard{
     height: 450px;
+}
+#falcon-heavy{
+    margin-right: 50px
+}
+#card2Heavy, #card2Dragon{
+    margin-right: 30px;
+}
+#card1Heavy, #card1Dragon{
+    margin-left: 30px;
+}
+#dragon{
+    margin-right: 50px;
+    margin-top: 12px;
 }
 }
