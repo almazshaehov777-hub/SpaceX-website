@@ -216,7 +216,7 @@ header{
 
 
 /*phone, main page*/
-@media(max-width: 575px){
+@media(max-width: 767px){
 .main-nav, .second-nav{
     display: none;
 }
@@ -305,6 +305,9 @@ button{
 .textInCard{
     font-size: 28px;
 }
+.nameSection{
+    margin-top: 80px;
+}
 
 
 
@@ -349,6 +352,39 @@ button{
 .card{
     height: 350px;
 }
+.nameSection{
+    margin-top: 80px;
+}
+}
+@media(min-width: 568px){
+    @media(max-width: 766px){
+        /*falcon-heavy*/
+    #falcon-heavy{
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 0;
+    }
+
+
+
+
+/*dragon*/
+    #dragon{
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 135px;
+    }
+    .nameSection{
+        text-align: center;
+    }
+    #falcon-9{
+        width: 70px;
+        margin-top: 90px;
+    }
+    .numbers{
+        margin-left: 130px;
+    }
+    }
 }
 
 
@@ -391,4 +427,68 @@ button{
     margin-right: 50px;
     margin-top: 12px;
 }
+.nameSection{
+    margin-top: 80px;
+}
+}
+
+
+
+
+
+
+
+
+/*планшеты*/
+@media(min-width: 768px){
+    @media(max-width: 1023px){
+        .main-nav, .second-nav{
+            display: block;
+        }
+        .container{
+            display: none;
+        }
+        .button-section{
+            display: none;
+        }
+        .rocketImage{
+            width: 110px;
+            margin-right: 35px;
+        }
+        .numbers{
+            margin-left: 100px;
+        }
+        #card1{
+            margin-left: 20px;
+        }
+        #card2{
+            margin-right: 20px;
+        }
+        .nameSection{
+            margin-top: 110px;
+            margin-left: 30px;
+            display: inline-block;
+        }
+
+
+
+
+
+
+        /*falcon Heavy*/
+        #card1Heavy, #card1Dragon{
+            margin-left: 20px;
+        }
+        #card2Heavy, #card2Dragon{
+            margin-right: 20px;
+        }
+
+
+
+
+        /*dragon*/
+        #dragon{
+            margin-top: 180px;
+        }
+    }
 }
